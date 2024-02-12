@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form action="">
+        <fieldset><!-- Crie um grupo de elementos de formulário -->
+            <legend>Meu formulário</legend><!-- Legenda do fieldset -->
+            <div><input type="text" name="nome" placeholder="digite seu nome"></div>
+            <div><input type="text" name="email" placeholder="digite seu e-mail"></div>
+            <select name="lista" id="">
+                <option disabled selected>Qual sua idade?</option>
+                <!-- Aqui tem uma opção que não pode ser selecionada, serve como placeholder -->
+                <option value="Menor de 18">Menor de 18</option>
+                <option value="entre 18 e 40">entre 18 e 40</option>
+                <option value="Mais de 40">Mais de 40</option>
+            </select>
+            <h2>Qual sua cidade?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="cidade" value="Florianópolis"><span>Florianópolis</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="São Paulo"><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="Rio de Janeiro"><span>Rio de Janeiro</span>
+                </div>
+            </div>
+            <h2>O que você gosta de comer</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="cidade[]" value="Fruta"><span>Fruta</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade[]" value="Fast food"><span>Fast food</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade[]" value="Salada"><span>Salada</span>
+                </div>
+            </div>
+            <div>
+                <textarea value="observacao" placeholder="Possui alguma observação?"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="acao" id="enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
