@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #212343;
+   width: 100%; 
+   height: 60px;
+}
+
+header img{
+    margin: 15px;    
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../images/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    border: 8px solid #ccc;
+    width: 400px;
+    height: calc(100% + 30px) ;
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    top: -15px;
+    float: right;
+}
+
+.form h2{
+    font-size: 20px;
+    color: #999;
+    font-weight: normal;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbb;
+    font-size: 17px;
+}
+
+form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+form input[type=submit]{
+    display: inline-block;
+    border: 0;
+    border-bottom: 5px solid #4a5097;
+    width: 280px;
+    height: 56px;
+    background-color: #363a6d;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.input-submit-container{
+    text-align: center;
+}
+
+form input[type=submit]:hover{
+    background-color: #323665;
+}
+
+.container-list{
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+    margin-top: 100px;
+    padding: 10px 30px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 18px;
+    color: white;
+}
+
+.container-2{
+    padding: 40px 0;
+    background-color: #ddd;
+    text-align: center;
+
+}
+
+.container-2 h2{
+    font-weight: normal;
+}
+
+.container-2 p{
+    display: inline-block;
+    width: 698px;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100%;
+}
+
+.section-1{
+    padding: 90px 0;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+}
+
+.container-single img{
+    width: 70px;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+footer{
+    padding: 30px 0;
+    border-top: 4px solid #888;
+    text-align: center;
+    color: #888;
+}
+
+footer p{
+    margin-top: 8px;
+}
