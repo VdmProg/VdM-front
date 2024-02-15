@@ -53,23 +53,25 @@ main {
 .categorias__content{
 	padding: 15px;
 	width: 100%;
+	margin: 0 auto;
 }
 
 .categorias__content ul{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	text-align: center;
 	margin: 0 auto;
 }
 
 .categorias__content li{
-	min-width: 300px;
+	width: 30%;
 	height: 200px;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	border: 1px solid #000;
 	border-radius: 20px;
+	margin-top: 10px;
 }
 
 .categorias__content ul li .fa-solid{
