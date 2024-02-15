@@ -1,0 +1,72 @@
+/* reset.css */
+
+/* Box sizing border-box para garantir que a largura e altura incluam o preenchimento e a borda */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Remova margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize a lista para remover a decoração de marcadores e recuo */
+ul, ol {
+    list-style: none;
+}
+
+/* Defina fontes padrão para garantir a consistência */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Remova sublinhados de links padrão e defina a cor para azul */
+a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+/* Remova estilos de lista de navegação */
+nav ul {
+    list-style: none;
+}
+
+/* Remova bordas padrão de elementos de formulário */
+button, input, select, textarea {
+    border: none;
+}
+
+/* Remova estilos padrão do input em alguns navegadores */
+input {
+    outline: none;
+}
+
+/* Adicione um estilo mínimo para elementos de formulário */
+button, input, select, textarea {
+    font-size: 100%; /* Evita mudanças inesperadas de fonte em alguns navegadores */
+}
+
+/* Remova a aparência do campo de formulário padrão em alguns navegadores */
+input[type="text"], input[type="password"], textarea {
+    -webkit-appearance: none;
+}
+
+/* Mantenha a legibilidade quando incorporar ícones como fontes */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.eot?v=4.7.0');
+    src: url('fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+         url('fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+         url('fontawesome-webfont.woff?v=4.7.0') format('woff'),
+         url('fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+         url('fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Adicione outros estilos específicos do seu projeto abaixo */
