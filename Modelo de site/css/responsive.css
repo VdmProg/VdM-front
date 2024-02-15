@@ -4,9 +4,20 @@
     }
 }
 
-@media screen  and (max-width: 600px) {
+@media screen  and (max-width: 650px) {
+    .input__struture{
+        display: none;
+    }
     .categorias__content ul li{
         width: 90%;
         margin: 10px auto;
     }
+    .descrition__text{
+        width: 90%;
+        text-align: justify;
+    }
+    .descrition__image{
+        display: none;
+    }
+
 }
