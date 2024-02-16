@@ -10,14 +10,16 @@ html, body{
 }
 
 .center{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 1280px;
 }
 
 header{
     background-color: #212343;
-   width: 100%; 
-   height: 60px;
+    width: 100%; 
+    height: 60px;
+    padding: 0 2%;
 }
 
 header img{
@@ -30,6 +32,7 @@ header img{
     background-image: url('../images/header_bg.png');
     background-size: cover;
     background-position: center;
+    padding: 0 2%;
 }
 
 .container-banner > .center{
@@ -114,7 +117,7 @@ form input[type=submit]:hover{
 }
 
 .container-2{
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #ddd;
     text-align: center;
 
@@ -126,7 +129,8 @@ form input[type=submit]:hover{
 
 .container-2 p{
     display: inline-block;
-    width: 698px;
+    width: 100%;
+    max-width: 768px;
     text-align: justify;
     margin: 15px 0;
 }
@@ -143,9 +147,11 @@ form input[type=submit]:hover{
 
 .section-1{
     padding: 90px 0;
+    padding: 0 2%;
 }
 
 .section-1 h2{
+    margin-top: 30px;
     text-align: center;
     color: #462663;
     font-weight: normal;
@@ -180,4 +186,73 @@ footer{
 
 footer p{
     margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: auto;
+        width: 100%; 
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    header img{
+        margin: 0;
+    }
+
+    .container-banner{
+        height: auto;
+        padding: 40px 2%;
+        text-align: center;
+    }
+    .form{
+        float: right;
+        width: 60%;
+        max-width: 400px;
+        margin-top: 30px;
+    }
+    .container-list{
+        float: left;
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+    }
+    .input-container input[type=text]{
+        width: 100%;
+    }
+    .form input[type=submit]{
+        max-width: 280px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-2{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .container-banner{
+        height: 1000px;
+    }
+    .container-list{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .form{
+        float: none;
+        display: inline-block;
+        width: 90%;
+        height: 60%;
+    }
+    .section-1 h2{
+        margin-top: 30px;
+    }
+    .container-single{
+        width: 100%;
+        max-width: 600px;
+        display: inline-block;
+        float: none;
+    }
 }
