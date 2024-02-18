@@ -176,3 +176,37 @@ section.linguas .center{
 section.linguas a.selected-lingua { 
     color: #737373;
 }
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    form.form-login{
+        margin-top: 17px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+    .form-element input[type=email], .form-element input[type=password]{
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .form-element input[type=submit]{
+        width: 140px;
+    }
+    .img{
+        display: none;
+    }
+    .abrir-conta{
+        width: 100%;
+    }
+}
