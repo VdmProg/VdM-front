@@ -24,7 +24,7 @@ header{
 }
 
 .logo h2{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: normal;
 }
 
@@ -39,7 +39,7 @@ header{
 
 .form-element p{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .form-element input[type=email], .form-element input[type=password]{
@@ -82,12 +82,12 @@ main{
 
 .abrir-conta h2{
     color: black;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .abrir-conta h3{
     color: rgb(30, 30, 30);
-    font-size: 19px;
+    font-size: 16px;
     font-weight: normal;
     margin-top: 10px;
 }
@@ -116,7 +116,7 @@ form.criar-conta input{
 form.criar-conta input[type=email], form.criar-conta input[type=text], form.criar-conta input[type=password]{
     height: 40px;
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     border: #a5dcff;
     border-radius: 6px;
 }
@@ -127,5 +127,52 @@ form.criar-conta input[type=submit]{
     border: 0;
     max-width: 200px;
     background: linear-gradient(#67ae55, #578843);
-    font-size: 19px;
+    font-size: 16px;
+}
+
+form .w100 h2{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+form select.nascimento{
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio{
+    float: left;
+    margin: 8px 10px;
+}
+
+.input-radio h2{
+    display: inline-block;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+section.linguas{
+    padding: 30px 0;
+    background-color: white;
+}
+
+section.linguas a{
+    color: #365899;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+section.linguas .center{
+    padding: 0 8px 10px 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+section.linguas a.selected-lingua { 
+    color: #737373;
 }
