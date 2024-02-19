@@ -5,7 +5,7 @@ main {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-		background-color: #C0C0C0;
+		background-color: var(--bgCinza);
 	padding: 30px 20px;
 }
 
@@ -69,7 +69,7 @@ main {
 	height: 200px;
 	display: inline-block;
 	text-align: center;
-	border: 1px solid #000;
+	border: var(--bordaPadrao);
 	border-radius: 20px;
 	margin-top: 10px;
 }
@@ -82,7 +82,7 @@ main {
 .categorias__content ul li span{
 	width: 100%;
 	height: 160px;
-	background-color: #C0C0C0;
+	background-color: var(--bgCinza);
 	border-radius: 20px 20px 0 0;
 }
 
@@ -95,7 +95,7 @@ main {
 footer{
 	background-image: url("../images/footer.jpeg");
 	background-size: 100% auto;
-	color: #FFF;
+	color: var(--fontBranca);
 }
 
 .footer__container{
@@ -122,7 +122,7 @@ footer{
 }
 
 .fa-brands{
-	color: #FFF;
+	color: var(--fontBranca);
 	font-size: 2em;
 	padding: 6px;
 }

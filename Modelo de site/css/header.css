@@ -15,7 +15,7 @@ header .top-header{
 }
 
 .input__struture{
-	border: 1px solid #000;
+	border: var(--bordaPadrao);
 	border-radius: 20px;
 	padding: 4px;
 }
@@ -32,7 +32,7 @@ header .top-header{
 
 .menu ul{
 	display: flex;
-	border: 1px solid #000;
+	border: var(--bordaPadrao);
 	border-radius: 8px;
 	flex-direction: row;
 	padding: 0 15px;
@@ -48,5 +48,5 @@ header .top-header{
 }
 
 .menu ul li:not(:last-child){
-	border-right: 1px solid #000;
+	border-right: var(--bordaPadrao);
 }
