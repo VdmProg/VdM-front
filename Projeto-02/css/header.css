@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Estilização */
@@ -17,8 +18,8 @@
 }
 
 header{
-    background-color: #b6b6b6;
-    padding: 10px 2%;
+    background-color: rgb(180, 180, 180);
+    padding: 10px 2% 40px 2%;
 }
 
 .logo-1{
@@ -47,7 +48,7 @@ header{
     }
     .logo-1, .logo-2{
         display: block;
-        margin-top: 10px;
+        margin: 10px auto 0 auto;
         float: none;
     }
 }

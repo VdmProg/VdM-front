@@ -1,0 +1,21 @@
+.chamada{
+    text-align: center;
+    width: 100%;
+}
+
+section.chamada .container{
+    background-color: gray;
+    padding: 50px 0;
+}
+
+section.chamada h2{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    width: 96%;
+    max-width: 700px;
+}
+section.chamada p{
+    color: white;
+}
