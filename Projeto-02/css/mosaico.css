@@ -1,0 +1,51 @@
+.flex-mosaico{
+    display: flex;
+}
+
+.flex-mosaico:nth-child(2n + 2){
+    flex-direction: row-reverse;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    width: 40%;
+    padding: 60px;
+}
+
+.item-2-mosaico p{
+    color: #215270;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img{
+    width: 120px;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-mosaico{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .item-1-mosaico, .item-2-mosaico{
+        width: 100%;
+    }
+    .item-1-mosaico{
+        padding-top: 70%;
+    }
+    .item-2-mosaico{
+        text-align: center;
+    }
+}
