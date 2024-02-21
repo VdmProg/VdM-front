@@ -73,10 +73,15 @@ nav.mobile-menu ul li a{
 }
 
 header .logo{
+    position: relative;
+    top: -15px;
 	float: left;
 	width: 160px;
 	height: 40px;
-	background-color: #ccc;
+	background-image: url(../imagens/logo-danki.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header nav.desktop-menu ul{
@@ -279,7 +284,9 @@ section.sessao-1 .container{
     width: 40px;
     padding-top: 40px;
     border-radius: 20px;
-    background-color: gray;
+    background-image: url(../imagens/perfil.gif);
+    background-size: auto 100%;
+    background-position: center;
 }
 
 .texto-author{
@@ -405,8 +412,23 @@ section.sessao-1 .container{
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
     border: 1px solid rgb(200, 200, 200);
+}
+
+footer{
+    padding: 40px 2%;
+    background-color: #192123;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer p:first-child{
+    float: left;
+}
+
+footer p:last-child{
+    float: right;
 }
 
 @media screen and (max-width: 830px) {
@@ -527,5 +549,22 @@ section.sessao-1{
     .parte-2{
         width: 100%;
         padding: 40px 0;
+    }
+    footer{
+        padding: 40px 2%;
+        background-color: #192123;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    footer p:first-child{
+        float: none;
+    }
+    
+    footer p:last-child{
+        float: none;
+        margin-top: 8px;
     }
 }
