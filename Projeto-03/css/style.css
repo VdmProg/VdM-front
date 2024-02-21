@@ -18,11 +18,11 @@ div.container{
 header{
     width: 100%;
     height: 90vh;
-    max-height: 700px;
     background-image: url(../imagens/capa.png);
     background-size: cover;
     background-position: center;
     padding: 40px 2%;
+    font-weight: 300;
 }
 
 header .logo{
@@ -59,11 +59,66 @@ header nav a{
 .chamada-1 h2{
     font-size: 30px;
     color: white;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .chamada-1 p{
     font-size: 15px;
     color: white;
     margin-top: 10px;
+}
+
+/* Nova sessão */
+.sessao-1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0 2%;
+}
+
+.texto-sessao-1{
+    float: left;
+    color: white;
+    font-weight: 300;
+    width: 50%;
+}
+
+.texto-sessao-1 p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.texto-sessao-1 ul{
+    list-style-position: inside;
+    font-size: 13px;
+}
+
+.texto-sessao-1 ul li{
+    width: 100%;
+    float: left;
+}
+
+.device-sessao-1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../imagens/device.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.sessao-1 .container {
+    max-width: 1000px;
+}
+
+.btn-1{
+    background-color: #ff703d;
+    width: 165px;
+    height: 44px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
 }
