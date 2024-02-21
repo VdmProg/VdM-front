@@ -120,6 +120,7 @@ section.sessao-1{
 
 section.sessao-1 .container{
 	max-width: 1000px;
+    height: calc( 100% + 30px);
 }
 
 .texto-sessao-1{
@@ -171,7 +172,7 @@ section.sessao-1 .container{
 	width: 50%;
 	position: relative;
 	top:-30px;
-	height: 430px;
+	height: 100%;
 	background-image: url('../imagens/device.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -200,14 +201,118 @@ section.sessao-1 .container{
 }
 
 .sessao-2 img{
+    position: relative;
+    top: 70px;
     width: 96%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
+.sessao-3{
+    width: 100%;
+}
+
+.parte-1{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background-color: #835fa7;
+    color: white;
+}
+
+.wraper-parte-1{
+    max-width: 600px;
+    float: right;
+    padding-right: 30px;
+}
+
+.parte-1 h2{
+    font-style: italic;
+    font-weight: 300px;
+    font-size: 23px;
+}
+
+.parte-1 p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.parte-2{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+}
+
+.sobre-author{
+    float: left;
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+.titulo-author{
+    float: left;
+    width: 100%;
+}
+
+.wraper-titulo-author{
+    float: left;
+}
+
+.titulo-author h2{
+    color: #232323;
+    font-weight: 400;
+    font-size: 21px;
+    padding-right: 20px;
+}
+
+.titulo-author p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #232323;
+    font-style: italic;
+}
+
+.titulo-author .img-author{
+    position: relative;
+    top: -4px;
+    float: left;
+    width: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.texto-author{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.texto-author p{
+    color: #232323;
+    font-size: 15px;
+}
+
+.slider-bullets{
+    width: 100%;
+    float: left;
+    margin-top: 12px;
+    padding-left: 30px;
+}
+
+.slider-bullets span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: rgb(200, 200, 200);
+    margin-right: 12px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 830px) {
     
-.chamada-1{
+.chamada-1{ 
 	max-width: none;
 	width: 100%;
 	text-align: center;
