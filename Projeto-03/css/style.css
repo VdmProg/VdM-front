@@ -222,7 +222,7 @@ section.sessao-1 .container{
 .wraper-parte-1{
     max-width: 600px;
     float: right;
-    padding-right: 30px;
+    padding-right: 0 30px;
 }
 
 .parte-1 h2{
@@ -310,6 +310,105 @@ section.sessao-1 .container{
     cursor: pointer;
 }
 
+.sessao-4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+}
+
+.form h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.form p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    max-width: 400px;
+    padding-right: 10px;
+}
+
+.form form{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.form form input{
+    width: 90%;
+    max-width: 480px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 8px;
+}
+
+.form form textarea{
+    width: 90%;
+    max-width: 480px;
+    height: 160px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 8px;
+}
+
+.form form input[type=submit]{
+    background-color: #FF703D;
+    border: 0;
+	width: 165px;
+	height: 44px;
+    line-height: 44px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:15px;
+	border-radius: 30px;
+}
+
+.map-wraper{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.map-wraper h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map-wraper-3{
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 480px;
+    margin-top: 10px;
+}
+
+.map-wraper-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.map{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+}
+
 @media screen and (max-width: 830px) {
     
 .chamada-1{ 
@@ -372,19 +471,61 @@ section.sessao-1{
 	margin-top:20px;
 }
 
-.texto-sessao1 ul li{
-	float: none;
-	text-align: left;
+    .texto-sessao1 ul li{
+        float: none;
+        text-align: left;
+    }
+
+    .btn-1{
+        display: inline-block;
+    }
+
+    .device-sessao-1{
+        display: none;
+    }
+    .sessao-2{
+        padding: 40px 2%;
+    }
+    .sessao-4 .container{
+        text-align: center;
+    }
+    .form{
+        float: none;
+        width: 100%;
+    }
+    .form p{
+        display: inline-block;
+    }
+    .map-wraper{
+        margin-top: 40px;
+        float: none;
+        width: 100%;
+        padding: 0 8%;
+    }
+    .map-wraper-3{
+        display: inline-block;
+        max-width: none;
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+    }
+    .map-wraper-2{
+        height: 100%;
+        padding: 0;
+    }
 }
 
-.btn-1{
-	display: inline-block;
-}
-
-.device-sessao-1{
-	display: none;
-}
-.sessao-2{
-    padding: 40px 2%;
-}
+@media screen and (max-width: 580px) {
+    .sessao-2 img{
+        margin-top: 20px;
+        top: 16px;
+    }
+    .parte-1{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .parte-2{
+        width: 100%;
+        padding: 40px 0;
+    }
 }
