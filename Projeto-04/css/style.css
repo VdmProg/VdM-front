@@ -49,3 +49,63 @@ header ul li a{
 }
 
 /* Acabou o Header */
+
+/* Inicio da section mosaico */
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #b4b4b4;
+    border: 5px solid white;
+}
+
+/* Acabou o mosaico */
+
+/* Inicio da section servicos */
+section.servicos .container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+section.servicos .box-servico:nth-of-type(2n + 1){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+section.servicos .box-servico:nth-of-type(2){
+    width: 40%;
+    padding: 55px 2%;
+    background-color: #688293;
+    background-image: none;
+}
+
+section.servicos .box-servico h2{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+section.servicos .box-servico p{
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+section.servicos .box-servico{
+    background-image: url(../imagens/icone_dente.png);
+    background-size: 18px 18px;
+    background-position: center calc(100% - 5px);
+    background-repeat: no-repeat;
+}
+/* Acabou a section serviços */
