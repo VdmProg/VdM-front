@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .header-container{
+        width: 90%;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .header-container .mobile-menu{
+        display: block;
+        
+    }
+
+    .header-container .mobile-menu ul{
+        display: none;
+    }
+    .header-container .mobile-menu:hover ul{
+        display: block;
+        
+    }
+    .mobile-menu ul li{
+        position: relative;
+        float: left;
+        width: 100vw;
+        background-color: white;
+    }
+    
+
+    section.banner{
+        width: 98%;
+        height: 70vw;
+        min-height: 500px;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
