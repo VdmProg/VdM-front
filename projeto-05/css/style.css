@@ -36,16 +36,26 @@ header .header-container{
 
 .header-container .mobile-menu{
     display: none;
-    width: 30px;
-    height: 30px;
+    float: right;
+    width: 32px;
+    height: 32px;
     background-image: url(../imagens/icon_menu.png);
     background-size: 100% 100%;
 }
 
 .header-container .mobile-menu ul{
+    display: none;
     position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 999;
     width: 100%;
-    float: left;
+    background-color: white;
+}
+
+.header-container .mobile-menu li{
+    font-size: 23px;
+    text-align: center;
 }
 
 .header-container nav ul{
@@ -108,4 +118,72 @@ section.banner p{
     padding: 10px 40px;
     margin-top: 20px;
     font-size: 20px;
+}
+
+/* Section veículos destaque */
+section.veiculos-destaque{
+    padding: 80px 2%;
+}
+
+.line-titulo{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.line-titulo .ln1{
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+section.veiculos-destaque .line-titulo > h2{
+    position: relative;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: white;
+    display: inline-block;
+}
+
+.carros-destaque{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carros-destaque .carro-single{
+    width: 30%;
+}
+
+.carro-single img{
+    width: 100%;
+}
+
+.carro-single .texto-carro{
+    text-align: left;
+    color: black;
+}
+
+.carro-single .texto-carro h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carro-single a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eb2d2d;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 15px;
 }
