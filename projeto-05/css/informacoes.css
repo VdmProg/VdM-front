@@ -1,0 +1,83 @@
+/* section informações */
+section.informacoes{
+    display: flex;
+}
+
+.servicos{
+    width: 50%;
+    padding: 70px 0;
+    background-color: #242424;
+    color: white;
+    text-align: right;
+}
+
+.servicos-wraper{
+    display: inline-block;
+    text-align: left;
+    padding-right: 20%;
+}
+
+.servicos-wraper h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.servicos-wraper ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.servicos-wraper li{
+    margin-left: 15px;
+}
+
+.servicos-wraper a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    vertical-align: bottom;
+}
+
+.depoimentos{
+    width: 50%;
+    padding: 90px 100px;
+    background-color: #eb2d2d;
+    color: white;
+}
+
+.depoimentos h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.depoimentos .depoimento-single{
+    margin-top: 19px;
+}
+
+.depoimento-single p{
+    font-size: 22px;
+}
+
+.navigation{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.arrows{
+    float: left;
+}
+
+.navigation img{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.nome-depoimento{
+    float: right;
+    color: #252525;
+    font-size: 23px;
+}

@@ -1,0 +1,31 @@
+/* footer */
+footer{
+    padding: 40px 2%;
+    background-color: #252525;
+    color: white;
+    font-style: italic;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 25px;
+}
+
+footer p{
+    float: right;
+    font-size: 16px;
+}
