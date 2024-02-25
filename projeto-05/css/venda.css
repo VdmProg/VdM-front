@@ -17,7 +17,7 @@ section.venda .sidebar{
 }
 
 .search1{
-    width: 300px;
+    width: 90%;
 }
 
 .search1 h2{
@@ -42,7 +42,7 @@ section.venda .sidebar{
     top: 0;
     height: 20px;
     width: 50%;
-    background-color: rgb(200, 200, 200);
+    background: linear-gradient(to bottom, white, rgb(200, 200, 200));
     border-radius: 20px;
 }
 
@@ -53,7 +53,7 @@ section.venda .sidebar{
     width: 26px;
     height: 26px;
     border-radius: 8px;
-    background-color: rgb(210, 210, 210);
+    background: linear-gradient(to bottom, white, rgb(180, 180, 180));
     border: 1px solid black;
     cursor: pointer;
 }
@@ -97,10 +97,35 @@ section.venda .sidebar{
     border-radius: 3px;
     display: inline-block;
     cursor: pointer;
+    position: relative;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label .circle{
+    display: block;
+}
+
+.circle{
+    display: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    top: 6px;
+    left: 6px;
 }
 
 .form-venda-wraper span{
     display: inline-block;
     padding: 0 10px;
     vertical-align: top;
+}
+
+.vitrine-venda{
+    float: left;
+    width: 70%;
+}
+
+.vitrine-venda .carros-destaque{
+    margin-top: 20px;
 }
