@@ -58,6 +58,9 @@
     .servicos-wraper{
         padding: 0 2%;
     }
+    .w50{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 580px) {

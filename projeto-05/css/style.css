@@ -140,7 +140,7 @@ section.veiculos-destaque{
     width: 100%;
 }
 
-section.veiculos-destaque .line-titulo > h2{
+.line-titulo > h2{
     position: relative;
     padding: 0 20px;
     text-align: center;
@@ -273,4 +273,52 @@ section.informacoes{
     float: right;
     color: #252525;
     font-size: 23px;
+}
+
+/* section contato */
+section.contato{
+    padding: 80px 2%;
+}
+
+section.contato form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contato .input-wraper{
+    float: left;
+    padding: 8px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contato form .input-wraper:last-child{
+    text-align: center;
+}
+
+section.contato input[type=submit]{
+    cursor: pointer;
+    font-size: 18px;
 }
