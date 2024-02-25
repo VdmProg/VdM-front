@@ -61,6 +61,16 @@
     .w50{
         width: 100%;
     }
+
+    footer{
+        text-align: center;
+    }
+    footer nav{
+        display: none;
+    }
+    footer p{
+        float: none;
+    }
 }
 
 @media screen and (max-width: 580px) {
