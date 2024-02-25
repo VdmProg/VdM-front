@@ -6,6 +6,10 @@
     font-weight: 400;
 }
 
+html, body{
+    height: 90%;
+}
+
 .clear{
     clear: both;
 }
@@ -29,4 +33,30 @@ li.active a{
     border-bottom: 1px solid black;
     padding: 10px 20px; 
     font-size: 15px;
+}
+
+.line-titulo{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.line-titulo .ln1{
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+.line-titulo > h2{
+    position: relative;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: white;
+    display: inline-block;
 }

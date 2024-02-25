@@ -3,32 +3,6 @@ section.veiculos-destaque{
     padding: 80px 2%;
 }
 
-.line-titulo{
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-}
-
-.line-titulo .ln1{
-    position: absolute;
-    top: 20px;
-    background-color: black;
-    height: 2px;
-    width: 100%;
-}
-
-.line-titulo > h2{
-    position: relative;
-    padding: 0 20px;
-    text-align: center;
-    font-size: 24px;
-    font-style: italic;
-    text-transform: uppercase;
-    background-color: white;
-    display: inline-block;
-}
-
 .carros-destaque{
     display: flex;
     justify-content: space-between;
