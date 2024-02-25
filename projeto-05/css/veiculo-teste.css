@@ -1,0 +1,58 @@
+section.venda-single{
+    padding: 40px 2%;
+}
+
+section.venda-single .container{
+    max-width: 1000px;
+}
+
+.info-veiculo{
+    width: 60%;
+    float: left;
+}
+
+.descricao-veiculo{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.descricao-veiculo p{
+    margin-top: 25px;
+    max-width: 360px;
+    text-align: justify;
+}
+
+.descricao-veiculo a{
+    margin-top: 25px;
+}
+
+.foto-destaque{
+    width: 90%;
+    padding-top: 70%;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../imagens/carro1.jpg);
+    background-repeat: no-repeat;
+}
+
+.nav-galeria{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.nav-galeria-wraper{
+    width: 200%;
+}
+
+.mini-img{
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/carro1.jpg);
+    padding-top: calc(33.3% * (100 / 200) *  0.4);
+    border: 4px solid white;
+    width: calc(33.3% * (100 / 200));
+}
