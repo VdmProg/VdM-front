@@ -1,6 +1,6 @@
 /* section contato */
 section.contato{
-    padding: 80px 2%;
+    padding: 60px 2% 40px 2%;
 }
 
 section.contato .line-titulo{
@@ -28,13 +28,15 @@ section.contato .input-wraper{
 section.contato input[type=text]{
     width: 100%;
     border: 1px solid #ccc;
-    height: 40px;
-    line-height: 40px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
     padding-left: 15px;
 }
 
 section.contato textarea{
     width: 100%;
+    font-size: 16px;
     border: 1px solid #ccc;
     height: 120px;
     padding: 8px;
