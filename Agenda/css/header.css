@@ -1,0 +1,17 @@
+header{
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px 2%;
+    text-align: center;
+    background-color: var(--AzulEscuro);
+    border-radius: 30px;
+    color: var(--TituloCor);
+}
+
+header h1{
+    font-weight: 700;
+}
+
+header h3{
+    margin-top: 5px;
+}
