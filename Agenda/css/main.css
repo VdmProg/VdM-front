@@ -1,0 +1,81 @@
+main{
+    padding: 40px 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarefas{
+    background-color: var(--AzulEscuro);
+    border-radius: 10px;
+    width: 45%;
+    padding: 15px;
+    color: var(--TituloCor);
+}
+
+.tarefas .tarefas-titulo, .formulario-titulo{
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--TituloCor);
+}
+
+.formulario{
+    background-color: var(--AzulEscuro);
+    border-radius: 10px;
+    width: 45%;
+    padding: 15px;
+    color: var(--TituloCor);
+    text-align: center;
+}
+
+.formulario form{
+    padding: 20px 0;
+}
+
+.formulario .formulario-wraper{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+.formulario-wraper label{
+    display: block;
+    text-align: left;
+    color: var(--LabelCor);
+}
+
+.formulario-wraper input{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    background-color: var(--AzulClaro);
+}
+
+.formulario-wraper-data{
+    width: 50%;
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.formulario-wraper-data label{
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    color: var(--LabelCor);
+}
+
+.formulario-wraper-data input{
+    background-color: var(--AzulClaro);
+    display: inline-block;
+    padding: 5px 20px;
+    width: 60%;
+}
+
+.formulario input[type=submit]{
+    background-color: var(--TituloCor);
+    color: var(--LabelCor);
+    border: 0;
+    border-radius: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 20px;
+}

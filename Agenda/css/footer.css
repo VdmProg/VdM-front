@@ -1,0 +1,6 @@
+footer{
+    background-color: var(--AzulClaro);
+    padding: 40px 2%;
+    text-align: center;
+    color: var(--BodyBG);
+}

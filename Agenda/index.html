@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma agenda para organização pessoal">
+    <meta name="keywords" content="Agenda, Organização, Eficiência">
+    <meta name="author" content="Victor de Moura">
+    <title>Agenda Organizada</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variaveis.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda Organizada</h1>
+        <h3>Organize sua rotina de forma eficiente</h3>
+    </header>
+    <main>
+        <div class="tarefas">
+            <div class="tarefas-titulo">
+                <h3>Tarefas</h3>
+            </div>
+            <div id="tarefas-criadas"></div>
+        </div>
+        <div class="formulario">
+            <div class="formulario-titulo">
+                <h3>Adicione aqui suas tarefas</h3>
+            </div>
+            <form>
+                <div class="formulario-wraper">
+                    <label for="nome">Nome*</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="formulario-wraper">
+                    <label for="local">Local*</label>
+                    <input type="text" id="local">
+                </div>
+                <div class="formulario-wraper-data">
+                    <label for="data">Data*</label>
+                    <input type="datetime-local" id="data">
+                </div>
+                <input type="submit" value="Adicionar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
