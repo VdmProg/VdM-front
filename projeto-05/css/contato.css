@@ -1,0 +1,53 @@
+/* section contato */
+section.contato{
+    padding: 60px 2% 40px 2%;
+}
+
+section.contato .line-titulo{
+    max-width: 600px;
+}
+
+section.contato form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contato .input-wraper{
+    float: left;
+    padding: 8px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    padding-left: 15px;
+}
+
+section.contato textarea{
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contato form .input-wraper:nth-child(5){
+    text-align: center;
+}
+
+section.contato input[type=submit]{
+    cursor: pointer;
+    font-size: 18px;
+}
