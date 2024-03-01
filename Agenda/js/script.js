@@ -13,12 +13,16 @@ window.onload = function(){
         document.getElementById('tarefasCriadas').innerHTML+=`
         <div class="tarefa-nova" style="display:flex;">
             <input type="checkbox" class="tarefa-nova-input">
-            <div style="margin-left: 10px;>
-                <h4> `+tarefa+ `</h4>
-                <p style= "font-size: 10px; font-weight: 400;"> Em `+local+ ` às `+data+`</p>
+            <div style="margin-left: 10px;">
+                <h4 class="tarefa-nova"> ${tarefa}</h4>
+                <p style= "font-size: 10px; font-weight: 400;"> Em ${local} às ${data}</p>
             </div>
         </div>
         `
+
+        document.getElementById('tarefa').value = " ";
+        document.getElementById('local').value = " ";
+        document.getElementById('hora').value = "00:00";
     };
 
 
