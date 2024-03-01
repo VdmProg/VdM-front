@@ -51,7 +51,7 @@ main{
 }
 
 .formulario-wraper-data{
-    width: 50%;
+    width: 60%;
     margin: 20px 0;
     padding: 0 30px;
 }
@@ -59,7 +59,7 @@ main{
 .formulario-wraper-data label{
     text-align: left;
     display: inline-block;
-    width: 30%;
+    width: 50%;
     color: var(--LabelCor);
 }
 
@@ -67,7 +67,7 @@ main{
     background-color: var(--AzulClaro);
     display: inline-block;
     padding: 5px 20px;
-    width: 60%;
+    width: 45%;
 }
 
 .formulario input[type=submit]{
