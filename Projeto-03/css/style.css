@@ -248,10 +248,19 @@ section.sessao-1 .container{
     padding: 140px 0 90px 0;
 }
 
+.scrollEquipe{
+    max-width: 600px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.scroll-wraper{
+    width: 100%;
+}
+
 .sobre-author{
     float: left;
-    max-width: 600px;
-    padding-left: 30px;
+    width: 100%;
 }
 
 .titulo-author{
