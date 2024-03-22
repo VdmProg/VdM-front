@@ -1,7 +1,7 @@
 $(function(){
     var currentValue = 0;
     var isDrag = false;
-    var precoMax = 250000;
+    var precoMax = 70000;
     var precoAtual = 0;
 
     $('.pointer-barra').mousedown(function(){
@@ -28,9 +28,32 @@ $(function(){
             $('.pointer-barra').css('left', mouseX-13+'px');
 
             precoAtual = (currentValue / 100 ) * precoMax;
-            $('.precoPesquisa').html('R$'+precoAtual)
+            precoAtual = formatarPreco(precoAtual);
+            $('.precoPesquisa').html('R$'+precoAtual);
         }
     })
+
+    function formatarPreco(precoAtual){
+        // Número máximo de decimais
+        precoAtual = precoAtual.toFixed(2);
+        // Divide o valor a partir do ponto
+        precoArr = precoAtual.split('.');
+
+        var novo_preco = formatarTotal(precoArr);
+
+        return novo_preco;
+    }
+
+    function formatarTotal(precoArr){
+        // Verifica se o valor é maior do que 1000
+        if(precoArr[0] < 1000){
+            return precoArr[0] + ',' + precoArr[1];
+        }else if(precoArr[0] < 10000){
+            return precoArr[0][0] + '.' + precoArr[0].substr(1,precoArr[0].length) + ',' + precoArr[1];
+        }else{
+            return precoArr[0][0] + precoArr[0][1] + '.' + precoArr[0].substr(2,precoArr[0].length) + ',' + precoArr[1];
+        }
+    }
 
     function disableTextSelection(){
         $('body').css('-webkit-user-select', 'none');
