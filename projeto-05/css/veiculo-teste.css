@@ -42,7 +42,7 @@ section.venda-single .container{
     padding-top: 70%;
     background-position: center;
     background-size: cover;
-    background-image: url(../imagens/carro1.jpg);
+    /* background-image: url(../imagens/carro1.jpg); */
     background-repeat: no-repeat;
 }
 
@@ -64,7 +64,7 @@ section.venda-single .container{
     height: 22px;
 }
 
-.arrow-left-right{
+.arrow-right-nav{
     cursor: pointer;
     position: absolute;
     right: 8px;
@@ -99,14 +99,14 @@ section.venda-single .container{
     overflow: hidden;
 }
 
-.nav-galeria-wraper{
+/* .nav-galeria-wraper{
     width: 200%;
-}
+} */
 
 .mini-img-wraper{
     float: left;
     padding: 9px;
-    width: calc(33.3% * (100 / 200));
+    /* width: calc(33.3% * (100 / 200)); */
 }
 
 .mini-img{

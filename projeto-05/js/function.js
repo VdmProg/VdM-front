@@ -70,4 +70,67 @@ $(function(){
         $('body').css('-o-user-select', 'auto');
         $('body').css('user-select', 'auto');
     }
+
+    // Veículo - teste
+
+    var imgShow = 3;
+    var maxIndex = Math.ceil($('.mini-img-wraper').length/3) - 1;
+    var curIndex = 0;
+
+    
+    function initSlider(){
+        var amt = $('.mini-img-wraper').length * 33.3;
+        var elScroll = $('.nav-galeria-wraper');
+        var elSingle = $('.mini-img-wraper');
+
+        elScroll.css('width', amt+'%');
+        elSingle.css('width', 33.3*(100/amt)+'%');
+    }
+
+    function navigateSlider(){
+        // Ao clicar da seta
+        $('.arrow-right-nav').click(function(){
+            // Verifica se o index atual é maior do que o número de trios de imagens
+            if(curIndex < maxIndex){
+                // Aumenta o index atual
+                curIndex++;
+                // Pôe um offset de 3 imagens após a inicial
+                var elOff = $('.mini-img-wraper').eq(curIndex * 3).offset().left - $('.nav-galeria-wraper').offset().left;
+                // Anima o scroll para a esquerda
+                $('.nav-galeria').animate({
+                    'scrollLeft' : elOff+'px',
+                });
+            }else{
+                console.log('Acabou');
+            }
+        });
+
+        $('.arrow-left-nav').click(function(){
+            if(curIndex > 0){
+                curIndex--;
+                var elOff = $('.mini-img-wraper').eq(curIndex * 3).offset().left - $('.nav-galeria-wraper').offset().left;
+                $('.nav-galeria').animate({
+                    'scrollLeft' : elOff+'px',
+                });
+            }else{
+                console.log('Acabou');
+            }
+        });
+    }
+
+    function clickSlider(){
+        $('.mini-img-wraper').click(function(){
+            $('.mini-img-wraper').css('background-color', 'transparent');
+            $(this).css('background-color', 'rgb(210,210,210');
+
+            var img = $('.mini-img-wraper').children().css('background-image');
+            $('.foto-destaque').css('background-image', img);
+        })
+
+        $('.mini-img-wraper').eq(0).click();
+    }
+
+    initSlider();
+    navigateSlider();
+    clickSlider();
 })
