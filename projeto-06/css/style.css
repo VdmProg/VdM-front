@@ -84,3 +84,40 @@ nav.desktop a{
     color: #fff;
     text-decoration: none;
 }
+
+.conteudo-header{
+    position: relative;
+    margin: 110px 0;
+    max-width: 700px;
+    z-index: 2;
+}
+
+.conteudo-header h2{
+    color: #fff;
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+.conteudo-header h2 span{
+    color: #2692ff;
+}
+
+.conteudo-header p{
+    color: #fff;
+    margin-top: 18;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.conteudo-header a{
+    display: block;
+    width: 177px;
+    height: 44px;
+    background-color: #2693ff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 18px;
+    line-height: 44px;
+    border-radius: 20px;
+}
