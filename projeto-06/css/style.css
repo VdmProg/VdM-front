@@ -228,9 +228,122 @@ section.parallax p{
     margin-top: 40px;
 }
 
+section.final-section{
+    padding: 50px 0;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+
+section.final-section h2{
+    position: relative;
+    font-weight: lighter;
+    color: #777;
+    font-size: 24px;
+}
+
+section.final-section h2 > .border-efeito{
+    width: 50px;
+    height: 2px;
+    background-color: #777;
+    position: absolute;
+    transition: 2s;
+}
+
+section.final-section div:hover > h2 > .border-efeito{
+    width: 100px;
+}
+
+.contato form{
+    margin-top: 15px;
+}
+
+.contato input:not([type="submit"]){
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.contato textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    resize: vertical;
+}
+
+.contato input[type="submit"]{
+    cursor: pointer;
+    background-color: #2693ff;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    border-radius: 30px;
+    width: 100px;
+    height: 33px;
+    margin-top: 15px;
+}
+
+.equipe > .w50{
+    width: 48%;
+    margin: 15px 1%;
+}
+
+.equipe-single .box-avatar{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    vertical-align: middle;
+}
+
+.equipe-single{
+    border: 1px solid #ccc;
+    min-height: 240px;
+    padding: 10px 8px 30px 8px;
+    box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+}
+
+.equipe-single .topo-box-usuario{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info-usuario{
+    display: inline-block;
+    color: #777;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
+.descricao-usuario-box{
+    color: #888;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 768px){
     .box-planos-single{
         margin: 10px 0;
         width: 100%;
+    }
+    .w50{
+        width: 100%;
+    }
+    .equipe > .w50{
+        width: 100%;
+        margin: 15px 0;
     }
 }
