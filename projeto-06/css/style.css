@@ -85,11 +85,48 @@ nav.desktop a{
     text-decoration: none;
 }
 
+nav.mobile{
+    display: none;
+    float: right;
+}
+
+nav.mobile > i{
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav.mobile ul{
+    display: none;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    list-style-type: none;
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
+}
+
+nav.mobile li{
+    border-bottom: 1px solid #444;
+    font-weight: lighter;
+    padding: 8px 0;
+    text-align: center;
+}
+
+nav.mobile a{
+    display: block;
+    text-decoration: none;
+    color: #444;
+}
+
 .conteudo-header{
     position: relative;
     margin: 110px 0;
     max-width: 700px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .conteudo-header h2{
@@ -334,7 +371,22 @@ section.final-section div:hover > h2 > .border-efeito{
     margin-top: 10px;
 }
 
+footer{
+    width: 100%;
+	padding:10px 2%;
+	text-align: center;
+	color: white;
+	background: #444;
+
+}
+
 @media screen and (max-width: 768px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
     .box-planos-single{
         margin: 10px 0;
         width: 100%;
