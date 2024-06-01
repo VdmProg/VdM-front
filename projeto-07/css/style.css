@@ -1,0 +1,55 @@
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+.sect1{
+  position: relative;
+  min-height: 400px
+}
+
+.form-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  padding: 15px 2%;
+  max-width: 700px;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  color: #777;
+  z-index: 2;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.custom-title > div{
+  background-color: #777;
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  left: 0;
+  top: 44px;
+  z-index: 1;
+}
+
+.offSet-equipe{
+  position: relative;
+  top: 82px;
+}
+
+@media screen and (max-width: 768px){
+  .offSet-equipe{
+    top: 0;
+  }
+}
