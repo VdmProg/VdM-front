@@ -26,11 +26,10 @@ nav .brand-logo {
 .custom-title h2{
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 24px;
   color: #777;
   z-index: 2;
   background-color: #fff;
-  margin-left: 5px;
   padding: 0 10px;
 }
 
@@ -42,4 +41,15 @@ nav .brand-logo {
   left: 0;
   top: 44px;
   z-index: 1;
+}
+
+.offSet-equipe{
+  position: relative;
+  top: 82px;
+}
+
+@media screen and (max-width: 768px){
+  .offSet-equipe{
+    top: 0;
+  }
 }
