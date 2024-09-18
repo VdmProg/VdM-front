@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Classes auxiliares */
+.clear{clear: both;}
+.container{
+    max-width: 960px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/* Site */
+section.header-master{
+    width: 100%;
+    padding: 30px 0;
+    min-height: 700px;
+    background-image: url(..//images/bg_01.png);
+    background-size: cover;
+}
+
+section.header-master header{
+    border-bottom: 3px solid rgba(71, 83, 88, 0.14);
+    padding-bottom: 5px;
+}
+
+header .logo{
+    float: left;
+    width: 166px;
+    height: 64px;
+    background-image: url(..//images/logo.png);
+    background-size: 100% 100%;
+}
+
+header nav{
+    float: left;
+    padding: 0 60px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+header li > a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li.selected{
+    color: #509d87;
+    position: relative;
+}
+
+li.selected span{
+    position: absolute;
+    bottom: 0;
+    width: 17px;
+    height: 3px;
+    background-color: #509d87;
+}
+
+div.telefone-header{
+    float: left;
+    position: relative;
+    top: -8px;
+}
+
+div.telefone-header span{
+    font-size: 25px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.content-header{padding: 60px 0;}
+
+.content-header .one{
+    float: left;
+    width: 50%;
+}
+
+.content-header .one h2{
+    color: #509d87;
+    font-size: 37px;
+    font-weight: normal;
+}
+
+.content-header .one p, .content-header .one span{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.content-header .one form input{
+    display: inline-block;
+}
+
+.content-header .one form input[type="email"]{
+    width: 251px;
+    height: 50px;
+    border: 3px solid #ccc;
+    border-radius: 40px;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.content-header .one form input[type="email"]:focus{
+    outline: 0;
+}
+
+.content-header .one form input[type="submit"]{
+    background-color: #00daaa;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin: 10px 0;
+    font-size: 14px;
+    height: 40px;
+}
+
+.content-header .one span{
+    display: block;
+    color: #509d87;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.content-header .two{
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.content-header .two img{
+    float: left;
+    max-width: 50%;
+    border: 10px solid rgba(0, 0, 0, 0);
+}
+
+section.diferenciais {
+    padding: 40px 0;
+}
+
+section.diferenciais .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.diferencial-single img{
+    max-width: 100%;
+}
+
+.diferencial-single h2{
+    font-size: 30px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.diferencial-single h2 b{
+    color: #7dd5b0;
+}
+
+.diferencial-single p{
+    font-size: 14px;
+    color: #2d2d2d;
+    font-weight: bold;
+}
+
+.sobre > .container{
+    max-width: 1440px;
+}
+
+.sobre-container{
+    float: left;
+    width: 50%;
+}
+
+.padsobre{padding: 10px 50px;}
+
+.sobre-container h2{
+    font-size: 33px;
+    font-weight: normal;
+    margin: 10px 0;
+    color: #a9c4b8;
+}
+
+.sobre-container p{
+    color: #000;
+}
+
+.sobre-container img{
+    width: 100%;
+}
+
+section.depoimento{
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url(../images/bg_02.png);
+    background-size: cover;
+}
+
+section.depoimento h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 29px;
+    color: #2d2d2d;
+}
+
+section.depoimento p{
+    text-align: center;
+    font-size: 15px;
+    color: #2d2d2d;
+}
+
+@media screen and (max-width: 960px){
+    .header-master{min-height: 400px;}
+    .content-header .one{
+        width: 100%;
+        text-align: center;
+    }
+    .content-header .two{
+        display: none;
+    }
+    .telefone-header{
+        display: none;
+    }
+    nav.desktop{display: none;}
+    .diferencial-single{
+        width: 100%;
+        text-align: center;
+    }
+    .sobre-container{width: 100%;}
+    .padsobre{padding: 0;}
+}

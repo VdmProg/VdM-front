@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monguilhott</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="header-master">
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                <nav class="desktop">
+                    <ul>
+                        <li class="selected"><span></span><a href="">Invisalign</a></li>
+                        <li><span></span><a href="">Banefícios</a></li>
+                        <li><span></span><a href="">Serve para mim?</a></li>
+                        <li><span></span><a href="">contato</a></li>
+                    </ul>
+                </nav>
+                <div class="telefone-header">
+                    <span>(00)00000-0000</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <div class="content-header">
+            <div class="container">
+                <div class="one">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt ligula at dolor vehicula. </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt ligula at dolor vehicula, sed blandit massa consectetur. Vestibulum porta orci id feugiat placerat. </p>
+                    <form action="">
+                        <input type="email" name="email">
+                        <input type="submit" name="acao" value="Quero saber mais!">
+                    </form>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </div>
+                <div class="two">
+                    <img src="images/round_images/circle01.png" alt="Imagem 1">
+                    <img src="images/round_images/circle02.png" alt="Imagem 2">
+                    <img src="images/round_images/circle03.png" alt="Imagem 3">
+                    <img src="images/round_images/circle04.png" alt="Imagem 4">
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+    <section class="diferenciais">
+        <div class="container">
+            <div class="diferencial-single">
+                <img src="images/icones/icone04.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+            <div class="diferencial-single">
+                <img src="images/icones/icone01.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+            <div class="diferencial-single">
+                <img src="images/icones/icone02.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+            <div class="diferencial-single">
+                <img src="images/icones/icone03.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+            <div class="diferencial-single">
+                <img src="images/icones/icone05.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+            <div class="diferencial-single">
+                <img src="images/icones/icone06.png" alt="">
+                <h2>Lorem ipsum dolor <b>sit amet</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque libero nibh, vulputate id egestas a, eleifend ut tellus.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-container">
+                <img src="images/rosto.png" alt="">
+            </div>
+            <div class="sobre-container padsobre">
+                <h2>O futuro chegou e ele é transparente</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id nunc sed sem aliquam facilisis.</p> 
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id nunc sed sem aliquam facilisis.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section class="depoimento">
+        <div class="container">
+            <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</h2>
+            <p>Invisalign</p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('nav a').hover(function(){
+            $('nav li').removeClass('selected');
+            $(this).parent().addClass('selected');
+        })
+    </script>
+</body>
+</html>
